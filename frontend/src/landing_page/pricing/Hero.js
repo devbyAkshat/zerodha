@@ -1,6 +1,6 @@
 import React from 'react';
  function Hero() {
-    return (  );
+    return (  <div></div>);
  }
  
  export default Hero;
