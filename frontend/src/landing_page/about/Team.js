@@ -2,7 +2,15 @@ import React from 'react';
 
 function Team() {
     return ( 
-    <h1>Team</h1>
+        <div className='container'>
+            <div className='row '>
+                <div className='col-6'>
+                    <img src="..\media\images\nithinKamath.jpg" />
+                </div>
+                <div className='col-6'></div>
+                </div>   
+        </div>
+    
  );
 }
 

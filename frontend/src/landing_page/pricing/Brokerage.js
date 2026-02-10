@@ -1,6 +1,6 @@
 import React from 'react';
  function Brokerage() {
-    return (  );
+    return ( <div><h1>Brokerage Page</h1></div> );
  }
  
  export default Brokerage;
