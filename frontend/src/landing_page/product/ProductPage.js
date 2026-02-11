@@ -1,7 +1,10 @@
 import React from 'react';
+import Hero from './Hero';
 
 function Products() {
-    return ( <div><h1>Products Page</h1></div> );
+    return ( <div>
+        <Hero />
+    </div> );
 }
 
 export default Products;
