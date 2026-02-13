@@ -11,6 +11,8 @@ import Support from './landing_page/support/SupportPage';
 import Footer from './landing_page/Footer';
 import Navbar from './landing_page/Navbar';
 import NotFound from './landing_page/NotFound';
+import PricingCurrency from './landing_page/pricing/PricingCurrency';
+import PricingCommodity from './landing_page/pricing/PricingCommodity';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,6 +26,8 @@ root.render(
     <Route path='/products' element = {<Products/>} />
     <Route path='/pricing' element = {<Pricing/>} />
      <Route path='/support' element = {<Support/>} />
+     <Route path="/pricing/Currency" element = {<PricingCurrency/>} />
+      <Route path="/pricing/Commodity" element = {<PricingCommodity/>} />
       <Route path='*' element = {<NotFound/>} />
   </Routes>
   <Footer/>

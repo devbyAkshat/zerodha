@@ -15,4 +15,22 @@ code {
     margin-left: 40px;
 
   }
+  /* equity pricing */
+  .tab-link {
+    text-decoration: none;
+    color: #0d6efd; /* Bootstrap blue */
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.tab-link:hover:not(.active) {
+    color: #6c757d; /* Grey color only for non-active tabs */
+}
+
+.tab-link.active {
+    color: #6c757d; /* Grey color for active tab */
+    border-bottom: 3px solid #0d6efd; /* Blue underline */
+}
 

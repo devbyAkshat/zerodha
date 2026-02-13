@@ -10,7 +10,7 @@ function Hero() {
             
             <div className='row mt-5 p-3'>
                 <div className='col-lg-4 col-md-4 col-sm-12 text-center p-4'>
-                    <img src='media/images/pricing0.svg' style={{maxHeight: '200px', maxWidth: '100%'}} alt='Free equity delivery' />
+                    <img src='/media/images/pricing0.svg' style={{maxHeight: '200px', maxWidth: '100%'}} alt='Free equity delivery' />
                     <h3 className='fs-4 mt-4 mb-3'>Free equity delivery</h3>
                     <p className='text-muted'>
                         All equity delivery investments (NSE, BSE), are absolutely free — ₹ 0 brokerage.
@@ -18,7 +18,7 @@ function Hero() {
                 </div>
                 
                 <div className='col-lg-4 col-md-4 col-sm-12 text-center p-4'>
-                    <img src='media/images/intradayTrades.svg' style={{maxHeight: '200px', maxWidth: '100%'}} alt='Intraday and F&O trades' />
+                    <img src='/media/images/intradayTrades.svg' style={{maxHeight: '200px', maxWidth: '100%'}} alt='Intraday and F&O trades' />
                     <h3 className='fs-4 mt-4 mb-3'>Intraday and F&O trades</h3>
                     <p className='text-muted'>
                         Flat ₹ 20 or 0.03% (whichever is lower) per executed order on intraday trades across equity, currency, and commodity trades. Flat ₹20 on all option trades.
@@ -26,7 +26,7 @@ function Hero() {
                 </div>
                 
                 <div className='col-lg-4 col-md-4 col-sm-12 text-center p-4'>
-                    <img src='media/images/pricing0.svg' style={{maxHeight: '200px', maxWidth: '100%'}} alt='Free direct MF' />
+                    <img src='/media/images/pricing0.svg' style={{maxHeight: '200px', maxWidth: '100%'}} alt='Free direct MF' />
                     <h3 className='fs-4 mt-4 mb-3'>Free direct MF</h3>
                     <p className='text-muted'>
                         All direct mutual fund investments are absolutely free — ₹ 0 commissions & DP charges.
