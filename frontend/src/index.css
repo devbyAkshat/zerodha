@@ -34,3 +34,61 @@ code {
     border-bottom: 3px solid #0d6efd; /* Blue underline */
 }
 
+
+.accordion-button {
+  transition: transform 0.2s ease;
+  background-color: #f8f9fa;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 25px 30px;
+}
+
+.accordion-button:hover {
+  transform: scale(1.02);
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: white;
+  color: #000;
+  box-shadow: none;
+}
+
+.accordion-button i {
+  font-size: 26px;
+}
+
+.accordion-item a {
+  transition: transform 0.2s ease;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.accordion-item a:hover {
+  transform: scale(1.05);
+}
+
+.accordion-body {
+  padding: 30px 40px;
+}
+
+.accordion-body li {
+  margin-bottom: 20px !important;
+}
+
+/* Add gap between accordion items */
+.accordion-item {
+  margin-bottom: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Remove default accordion borders */
+.accordion-item:first-of-type,
+.accordion-item:last-of-type {
+  border-radius: 4px;
+}
