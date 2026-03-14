@@ -32,13 +32,3 @@ root.render(
     <Footer />
   </BrowserRouter>,
 );
-// cnefmfgdjvbkcjv;sdlfgj
-// hjafdklyefw
-// kjfglghikwHFHl
-// rwegknkj45ikgtg
-// rr23frwe4ft
-// wefregkofgd
-// FJGWIFEEEEEEEHUO
-// gzcnzdfcgn
-
-// fsdgafdvz
